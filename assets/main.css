@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EAD196;
+    flex-direction: column;
+}
+
+.main_faq {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: #F3EDC8 ;
+    border-radius: 30px;
+}
+
+/* .faq {
+    display: flex;
+    flex-direction: column;
+} */
+
+#faq_title {
+    margin: 20px 0 0 30px;
+}
+
+#faq_title img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.faq_title__ {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.faq_qna { 
+    padding: 0 30px;
+}
+
+.plus {
+    background-image: url("../assets/images/plus.jpg");
+    background-size: contain;
+}
+
+.faq_qna_box {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.faq_qna small {
+    padding-right: 70px;
+    display: block;
+}
+
+.minus {
+    background-image: url("../assets/images/minus.jpg");
+    background-size: contain;
+}
+
+.plus, .minus {
+    width: 20px;
+    height: 20px;
+    font-weight: bolder;
+    position: absolute;
+    right: 0;
+}
+
+.faq_qna_button {
+    border: none;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.bottom {
+    padding-bottom: 40px;
+}
